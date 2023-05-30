@@ -1,0 +1,44 @@
+{
+  "name": "lotr-api-backend",
+  "version": "2.1.0",
+  "description": "the Lord of the Rings API backend",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "jest",
+    "prod": "NODE_ENV=production node server.js",
+    "prod_win": "set NODE_ENV=production&&node server.js"
+  },
+  "keywords": [
+    "the lord of the rings",
+    "api"
+  ],
+  "author": "Rike Exner",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.1",
+    "helmet": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.19",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-query-parser": "^1.1.7",
+    "nanoid": "^3.1.31",
+    "node-fetch": "^2.6.7",
+    "npm": "^9.1.3",
+    "passport": "^0.6.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "mockingoose": "^2.15.2",
+    "nodemon": "^2.0.9",
+    "supertest": "^6.2.2"
+  }
+}
