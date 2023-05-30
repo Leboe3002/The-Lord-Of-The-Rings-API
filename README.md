@@ -1,1 +1,1 @@
-# The-Lord-Of-The-Rings-API
+# Research & Project approval (Part 1)
